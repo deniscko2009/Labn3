@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Запис на прийом</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2>Друзі Тварин</h2>
+        <nav>
+            <ul>
+                <li><a href="Main.html">Головна</a></li>
+                <li><a href="Main_2.html">Послуги</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <aside>
+        <a href="Main.html">1</a>
+        <a href="Main_2.html">2</a>
+        <a href="Recording.html">3</a>
+    </aside>
+
+    <main>
+        <h1>Запис на прийом</h1>
+        <p>Заповніть форму для запису до ветеринара.</p>
+
+        <form action="#" method="post">
+            <label for="name">Ваше ім’я:</label><br>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+
+            <label for="phone">Номер телефону:</label><br>
+            <input type="tel" id="phone" name="phone" required>
+            <br><br>
+
+            <label for="pet">Кличка тварини:</label><br>
+            <input type="text" id="pet" name="pet" required>
+            <br><br>
+
+            <label for="type">Вид тварини:</label><br>
+            <select id="type" name="type" required>
+                <option value="">Оберіть тварину</option>
+                <option value="dog">Собака</option>
+                <option value="cat">Кіт</option>
+                <option value="rabbit">Кролик</option>
+                <option value="other">Інша</option>
+            </select>
+            <br><br>
+
+            <label for="service">Послуга:</label><br>
+            <select id="service" name="service">
+                <option value="consultation">Консультація</option>
+                <option value="checkup">Огляд</option>
+                <option value="vaccination">Вакцинація</option>
+            </select>
+            <br><br>
+
+            <label for="message">Коментар:</label><br>
+            <textarea id="message" name="message" rows="5" cols="35"></textarea>
+            <br><br>
+
+            <button type="submit">Надіслати заявку</button>
+        </form>
+
+        <p><a href="Main.html">Назад на головну</a></p>
+    </main>
+
+    <footer>
+        <p>© 2026 Друзі Тварин</p>
+    </footer>
+</body>
+</html>
